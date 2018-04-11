@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SuperEvenSteven/aws-nexrad-java.svg?branch=master)](https://travis-ci.org/SuperEvenSteven/aws-nexrad-java)
+
 # aws-nexrad-java
 Exploration of NEXRAD (Level II) data using publicly available data and services offered by AWS.
 
