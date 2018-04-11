@@ -71,7 +71,7 @@
 		<repository>
 			<id>unidata-releases</id>
 			<name>unidata nexus maven repo</name>
-			<url>https://artifacts.unidata.ucar.edu/repository/unidata-releases/archetype-catalog.xml</url>
+			<url>https://artifacts.unidata.ucar.edu/repository/unidata-releases</url>
 		</repository>
 	</repositories>
 </project>
