@@ -1,8 +1,16 @@
 [![Build Status](https://travis-ci.org/SuperEvenSteven/aws-nexrad-java.svg?branch=master)](https://travis-ci.org/SuperEvenSteven/aws-nexrad-java) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-# aws-nexrad-java
-Exploration of NEXRAD (Level II) data using publicly available data and services offered by AWS.
+# nexrad-decode-sample
+An example of decoding publicly available NEXRAD (Level II) data. 
 
-The initial idea is to create AWS Lambda functions using Java that will act on the NOAA S3 volume scan archives and later investigate the processing of real-time chunk data.
+Sample adapted from:
+* https://www1.ncdc.noaa.gov/pub/data/radar/Radar-Decoding-JavaSolution.txt
+
+Changes: 
+- Updated this to use the unidata dependencies straight from their personal public repo 
+- Refactored the use of deprecated unidata classes
+- Created a standard maven project structure 
+- Implemented a simple CI build script using Travis CI
 
 [AWS Public Datasets](https://aws.amazon.com/public-datasets/nexrad/)
+[Unidata Nexus Maven Repo](https://artifacts.unidata.ucar.edu/)
