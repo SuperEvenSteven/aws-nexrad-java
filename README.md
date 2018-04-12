@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/SuperEvenSteven/aws-nexrad-java.svg?branch=master)](https://travis-ci.org/SuperEvenSteven/aws-nexrad-java) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 # nexrad-decode-sample
-An example of decoding publicly available NEXRAD (Level II) data. 
+An example of decoding publicly available NEXRAD (Level II) data using Java 8 and NetCDF4. 
 
 Sample adapted from:
 * https://www1.ncdc.noaa.gov/pub/data/radar/Radar-Decoding-JavaSolution.txt
