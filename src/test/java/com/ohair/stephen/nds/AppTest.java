@@ -1,4 +1,4 @@
-package com.ohair.stephen.aws_nexrad_java;
+package com.ohair.stephen.nds;
 
 import java.net.URISyntaxException;
 import java.net.URL;
